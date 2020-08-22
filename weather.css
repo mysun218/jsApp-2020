@@ -1,0 +1,9 @@
+.js-weather {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+  margin-right: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  color: tomato;
+}

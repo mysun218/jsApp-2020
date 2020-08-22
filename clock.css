@@ -1,0 +1,12 @@
+.js-clock {
+  display: flex;
+  justify-content: center;
+}
+
+.js-clock h1 {
+  position: fixed;
+  top: 50px;
+  font-size: 80px;
+  font-weight: 800;
+  color: aliceblue;
+}

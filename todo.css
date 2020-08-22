@@ -1,0 +1,57 @@
+.js-toDoForm {
+  display: flex;
+  justify-content: center;
+}
+
+.js-toDoForm input {
+  position: fixed;
+  top: 300px;
+  font-size: 30px;
+  background-color: transparent;
+  color: bisque;
+  border: none;
+  border-bottom: 3px solid rgba(0, 0, 0, 0.2);
+  transition: border-color 1s ease-in-out;
+  font-weight: 800;
+  text-align: center;
+}
+
+.js-toDoForm input::placeholder {
+  color: bisque;
+}
+
+.js-toDoForm input:focus {
+  border-color: #ffd700;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu__empty {
+  width: 20%;
+}
+.menu__list {
+  width: 60%;
+}
+
+.menu__list--js-toDoList {
+  position: fixed;
+  top: 400px;
+}
+
+.menu__list--js-toDoList li {
+  display: flex;
+  align-items: center;
+  padding-bottom: 30px;
+  font-size: 30px;
+  font-weight: 800;
+  color: #ff8c00;
+}
+
+.menu__list--js-toDoList li button {
+  cursor: pointer;
+  margin-right: 15px;
+  background-color: transparent;
+  border: none;
+}

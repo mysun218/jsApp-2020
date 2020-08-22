@@ -1,0 +1,39 @@
+.form,
+.greetings {
+  display: none;
+}
+
+.showing {
+  display: flex;
+  justify-content: center;
+}
+
+.js-form input {
+  position: fixed;
+  top: 200px;
+  font-size: 40px;
+  border: none;
+  background-color: transparent; /*투명하게*/
+  width: 270px;
+  color: bisque;
+  border-bottom: 3px solid rgba(0, 0, 0, 0.2);
+  transition: border-color 1s ease-in-out;
+  font-weight: 800;
+  text-align: center;
+}
+
+.js-form input::placeholder {
+  color: bisque;
+}
+
+.js-form input:focus {
+  border-color: #ffd700;
+}
+
+.js-greetings h4 {
+  position: fixed;
+  top: 200px;
+  font-size: 40px;
+  color: bisque;
+  font-weight: 800;
+}

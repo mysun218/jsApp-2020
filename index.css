@@ -1,0 +1,12 @@
+@import "reset.css";
+@import "weather.css";
+@import "gretting.css";
+@import "clock.css";
+@import "bg.css";
+@import "todo.css";
+
+body {
+  color: #00bfff;
+  display: flex;
+  flex-direction: column;
+}

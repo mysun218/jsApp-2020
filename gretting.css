@@ -14,7 +14,6 @@
   font-size: 40px;
   border: none;
   background-color: transparent; /*투명하게*/
-  width: 270px;
   color: bisque;
   border-bottom: 3px solid rgba(0, 0, 0, 0.2);
   transition: border-color 1s ease-in-out;
